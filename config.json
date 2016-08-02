@@ -1,0 +1,8 @@
+{
+  "auth_service": "google",
+  "username": "GOOGLE USERNAME HERE.  LEAVE OUT THE @GMAIL.COM",
+  "password": "PASSWORD HERE",
+  "step_limit": 5,
+  "location": "1600 Pennsylvania Ave NW, Washington, DC",
+  "notify": "ivysaur,venusaur,charmander,charmeleon,charizard,wartortle,blastoise,butterfree,beedrill,pidgeot,fearow,arbok,pikachu,raichu,sandshrew,sandslash,nidoqueen,nidoking,clefable,ninetales,wigglytuff,gloom,vileplume,parasect,venomoth,diglett,dugtrio,persian,golduck,mankey,primeape,growlithe,arcanine,poliwhirl,poliwrath,abra,kadabra,alakazam,machop,machoke,machamp,weepinbell,victreebel,tentacruel,graveler,golem,ponyta,rapidash,slowbro,magnemite,magneton,dodrio,seel,dewgong,grimer,muk,cloyster,gastly,haunter,gengar,onix,drowzee,hypno,kingler,voltorb,electrode,exeggutor,cubone,marowak,hitmonlee,hitmonchan,lickitung,weezing,rhyhorn,rhydon,chansey,tangela,kangaskhan,seadra,seaking,starmie,scyther,jynx,electabuzz,magmar,tauros,gyarados,lapras,ditto,eevee,vaporeon,jolteon,flareon,porygon,omanyte,omastar,kabuto,kabutops,aerodactyl,snorlax,articuno,zapdos,moltres,dratini,dragonair,dragonite,mewtwo,mew"
+  }

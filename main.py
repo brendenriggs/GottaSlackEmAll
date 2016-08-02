@@ -485,6 +485,7 @@ def get_args():
         "password": STRING_STR,
         "port": INTEGER_STR,
         "pushbullet": STRING_STR,
+        "slacker": STRING_STR,
         "step_limit": INTEGER_STR,
         "username": STRING_STR
     }

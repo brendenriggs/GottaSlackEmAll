@@ -1,12 +1,15 @@
 # Pokemon Go Notification System
 
-This is a fork of [the popular PokemonGo-Map repository](https://github.com/AHAAAAAAA/PokemonGo-Map) with the purpose of allowing users to search for specific Pokemon without having to constantly monitor the map of nearby Pokemon. This allows users to set a list of sought-after Pokemon and receive notifications through [Pushbullet](https://www.pushbullet.com/). All API and map functionality was left untouched.
+This is a modification of [PokemonGo-Finder](https://github.com/jxmorris12/PokemonGo-Finder), 
+which is a fork of[the popular PokemonGo-Map repository](https://github.com/AHAAAAAAA/PokemonGo-Map) 
+with the purpose of allowing users to passively know if specific Pokemon are nearby without having to 
+constantly monitor the map. This allows users to set a list of sought-after Pokemon and receive 
+notifications through [Slack](https://slack.com/).
 
-## Configure PushBullet
-To generate a token for sending yourself notifications using the Pushbullet API, create an account on [Pushbullet](https://www.pushbullet.com/). Then click your avatar and select the "My Account" page. Scroll to where you see "Access Tokens" and click the "Create Access Token" button. Copy this hash, you'll need it later.
-
+## Configure Slack
+Generate a token for sending yourself notifications using the Slack API.  [Go here](https://api.slack.com/docs/oauth-test-tokens), log in, and generate your "token for testing."  Copy down this token code and save it for the ##Notifications section
 ## Config File
-Instead of from the command-line, all arguments are read from a `config.json` file. In addition to all of the options laid out [here](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Usage), I've introduced two required fields: `pushbullet`, your Pushbullet API key, and `notify`, a comma-separated list of the Pokemon that you'd like to receive Pushbullet notifications for.
+Instead of from the command-line, all arguments are read from a `config.json` file. In addition to all of the options laid out [here](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Usage), jxmorris12 introduced a required field to this config: `notify`, a comma-separated list of the Pokemon that you'd like to receive Pushbullet notifications for.
 As an alernative to 'notify', you may also make use of a field called 'do_not_notify'. If the 'do_not_notify' field is present and the 'notify' field is not present, you will be notified for ALL pokemon except the ones in the 'do_not_notify' field.
 
 Here's a sample `config.json` using the 'notify' field:
@@ -39,17 +42,22 @@ Here's a sample `config.json` using the 'do_not_notify' field:
 
 ## Install
 
-Install the necessary dependencies (including the Pushbullet client) by running `pip install --upgrade -r requirements.txt`. Create a config file and then run the main script using `python main.py`.
+Install the necessary dependencies (including the slack client) by running `pip install --upgrade -r requirements.txt`.
+Open config.json in a text editor and fill in your user info. 
+ I recommend using a dummy google account that isnt tied to your main pokemon account in case they decide to ban people.
+ Once you have the config file saved, run the main script using `python main.py`.
 
 *Using this software is against the ToS and can get you banned. Use at your own risk.*
 
 ## Notifications
-You'll have to set up notifications where you'd like to receive them. I installed the [Pushbullet Chrome Extension](https://chrome.google.com/webstore/detail/pushbullet/chlffgpmiacpedhhbkiomidkjlcfhogd?hl=en) and then decided that I found more utility by installing the Pushbullet iPhone app and receiving the notifications on my phone.
+You'll have to set up notifications and the slack channel you'd like to receive them.
+ Open notifier.py
+Replace "YOUR SLACK API TOKEN HERE" with your slack api token. Duh. 
+ Then scroll down to the bottom and replace where it says "#YOUR CHANNEL NAME HERE"  with the channel that you want the 
+notifications to go to. Keep the # before the name.  This channel has to be exist within the slack team that the API token 
+was generated from.  
 
-## Screenshots
+##Catch 'em All!!
+Run the main script using `python main.py` and get catching!
+ 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jxmorris12/PokemonGo-Finder/master/screenshots/PhonePushNotif.PNG" height="500">
-  <img src="https://raw.githubusercontent.com/jxmorris12/PokemonGo-Finder/master/screenshots/ChromePushNotif.png" width="400">
-  <img src="https://raw.githubusercontent.com/AHAAAAAAA/PokemonGo-Map/master/static/cover.png">
-</p>
