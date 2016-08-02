@@ -9,7 +9,7 @@ notifications through [Slack](https://slack.com/).
 ## Configure Slack
 Generate a token for sending yourself notifications using the Slack API.  [Go here](https://api.slack.com/docs/oauth-test-tokens), log in, and generate your "token for testing."  Copy down this token code and save it for the ##Notifications section
 ## Config File
-Instead of from the command-line, all arguments are read from a `config.json` file. In addition to all of the options laid out [here](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Usage), jxmorris12 introduced a required field to this config: `notify`, a comma-separated list of the Pokemon that you'd like to receive Pushbullet notifications for.
+Instead of from the command-line, all arguments are read from a `config.json` file. Jxmorris12 introduced a required field to this config: `notify`, a comma-separated list of the Pokemon that you'd like to receive Pushbullet notifications for.
 As an alernative to 'notify', you may also make use of a field called 'do_not_notify'. If the 'do_not_notify' field is present and the 'notify' field is not present, you will be notified for ALL pokemon except the ones in the 'do_not_notify' field.
 
 Here's a sample `config.json` using the 'notify' field:
