@@ -1,7 +1,7 @@
 # Pokemon Go Notification System
 
 This is a modification of [PokemonGo-Finder](https://github.com/jxmorris12/PokemonGo-Finder), 
-which is a fork of[the popular PokemonGo-Map repository](https://github.com/AHAAAAAAA/PokemonGo-Map) 
+which is a fork of [the popular PokemonGo-Map repository](https://github.com/AHAAAAAAA/PokemonGo-Map) 
 with the purpose of allowing users to passively know if specific Pokemon are nearby without having to 
 constantly monitor the map. This allows users to set a list of sought-after Pokemon and receive 
 notifications through [Slack](https://slack.com/).
