@@ -7,7 +7,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-token = "SLACK TOKEN HERE"
+token = "YOUR SLACK API TOKEN HERE"
 sc = SlackClient(token)
 wanted_pokemon = None
 unwanted_pokemon = None
