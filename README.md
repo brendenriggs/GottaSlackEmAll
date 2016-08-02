@@ -21,9 +21,8 @@ Here's a sample `config.json` using the 'notify' field:
   "password": "pikachu123",
   "step_limit": 5,
   "location": "742 Evergreen Terrace, Arlington, VA",
-  "notify": "dratini,magnemite,electabuzz,hitmonchan,hitmonlee,chansey,lapras,snorlax,porygon,mew,mewtwo,moltres,zapdos,articuno,ditto,seel,gyarados,cubone",
-  "pushbullet": "o.XyDeiVeYuM5eSv2ssy7AlFGLDl4ajEXj"
-}
+  "notify": "dratini,magnemite,electabuzz,hitmonchan,hitmonlee,chansey,lapras,snorlax,porygon,mew,mewtwo,moltres,zapdos,articuno,ditto,seel,gyarados,cubone"
+ }
 ```
 
 Here's a sample `config.json` using the 'do_not_notify' field:
@@ -35,9 +34,8 @@ Here's a sample `config.json` using the 'do_not_notify' field:
   "password": "pikachu123",
   "step_limit": 5,
   "location": "742 Evergreen Terrace, Arlington, VA",
-  "do_not_notify": "rattata,raticate,pidgey,pidgeotto,venonat,zubat,golbat,magikarp,weedle,kakuna,caterpie,metapod",
-  "pushbullet": "o.XyDeiVeYuM5eSv2ssy7AlFGLDl4ajEXj"
-}
+  "do_not_notify": "rattata,raticate,pidgey,pidgeotto,venonat,zubat,golbat,magikarp,weedle,kakuna,caterpie,metapod"
+  }
 ```
 
 ## Install
