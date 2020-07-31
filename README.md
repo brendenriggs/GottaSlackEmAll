@@ -55,7 +55,7 @@ You'll have to set up notifications and the slack channel you'd like to receive 
  Open notifier.py
 Replace "YOUR SLACK API TOKEN HERE" with your slack api token. Duh. 
  Then scroll down to the bottom and replace where it says "#YOUR CHANNEL NAME HERE"  with the channel that you want the 
-notifications to go to. Keep the # before the name.  This channel has to be exist within the slack team that the API token 
+notifications to go to. Keep the # before the name.  This channel has to exist within the slack team that the API token 
 was generated from.  
 
 ##Catch 'em All!!
