@@ -1,3 +1,6 @@
+### This project no longer supported, as Niantic broke the Pokemon Go API.  I'm leaving this project up in case the API is made public again and someone would like to use this code.  
+
+
 # Pokemon Go Notification System
 
 This is a modification of [PokemonGo-Finder](https://github.com/jxmorris12/PokemonGo-Finder), 
